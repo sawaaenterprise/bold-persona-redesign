@@ -1,5 +1,6 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { ArrowDown, ArrowUpRight, Asterisk } from "lucide-react";
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { ArrowDown, ArrowUpRight, Asterisk, FileText } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import portrait from "@/assets/wahab-shadow-editorial-new.png";
 import raahPreview from "@/assets/raah-e-hidayath.png";
 import sawaaPreview from "@/assets/sawaa-enterprise.png";
@@ -46,7 +47,7 @@ function Header() {
     <header className="topbar">
       <a className="wordmark" href="#top" aria-label="Syed Abdul Wahab home">SAW<span>®</span></a>
       <nav className="nav-links" aria-label="Main navigation">
-        <a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a>
+        <a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a><Link to="/cv">CV</Link>
       </nav>
       <span className="header-note"><i /> Available for bold ideas</span>
     </header>
@@ -96,6 +97,10 @@ function Portfolio() {
       <section className="contact-section" id="contact">
         <p>(03) Make the first move</p><h2>Let’s make<br /><span>some noise.</span></h2>
         <a className="contact-row" href="mailto:abdulwahabaafia@gmail.com"><span>abdulwahabaafia@gmail.com</span><ArrowUpRight /></a>
+        <div className="resume-callout">
+          <div><FileText /><p>Full profile / Education / Python stack</p><h3>View my CV<br /><em>and resume.</em></h3></div>
+          <Button asChild className="resume-button"><Link to="/cv">Open full CV <ArrowUpRight /></Link></Button>
+        </div>
       </section>
       <footer><a href="#top">Syed Abdul Wahab</a><span>Designer · Developer · Builder</span><span>© 2026 / SAW</span></footer>
     </main>
