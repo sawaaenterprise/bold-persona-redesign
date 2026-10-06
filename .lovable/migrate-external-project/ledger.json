@@ -9,7 +9,7 @@
     {"capability":"external providers and secrets","source":"none detected","outcome":"not applicable","status":"verified","next_action":"none"},
     {"capability":"public endpoints and callbacks","source":"none detected","outcome":"not applicable","status":"verified","next_action":"none"},
     {"capability":"schedules and webhooks","source":"none detected","outcome":"not applicable","status":"verified","next_action":"none"},
-    {"capability":"cutover","source":"Lovable preview","outcome":"preview replacement","status":"pending","next_action":"verify rendered portfolio"},
-    {"capability":"verification","source":"desktop and mobile preview","outcome":"visual and runtime checks","status":"pending","next_action":"test after implementation"}
+    {"capability":"cutover","source":"Lovable preview","outcome":"preview replacement active","status":"verified","next_action":"none"},
+    {"capability":"verification","source":"desktop and mobile preview","outcome":"portrait loaded, four sections rendered, no overflow or runtime errors","status":"verified","next_action":"none"}
   ]
 }
