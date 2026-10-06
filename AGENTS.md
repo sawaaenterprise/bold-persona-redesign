@@ -10,3 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Keep the portfolio as one scrolling route with in-page navigation, because the owner wants all work, profile, and contact content on the main page.
+- Keep CV profile content in the shared data module so the resume page has one consistent source of truth.
