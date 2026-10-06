@@ -1,14 +1,16 @@
-# Welcome to your Lovable project
+# Bold Persona Redesign
+
+take this repo exactly same to same https://github.com/abdulwahabaafia-art/bold-canvas-persona.git and now edit the same and what to do is remove the boy with this boy not the structure only the boy but the skin color should be white there should look hot and look professional and bold and some smotthh and bold and hot hairs little big in a very stylish way
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/ab7c78df-9f1b-4044-9deb-ed41c74c5023).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +22,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
